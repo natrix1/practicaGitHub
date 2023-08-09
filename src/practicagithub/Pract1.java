@@ -18,10 +18,12 @@ public class Pract1 {
     
     
 
-    public Pract1(String nombre, int edad, int votos) {
+    public Pract1(String nombre, int edad, int votos,  String nacionalidad, String apellido) {
         this.nombre = nombre;
         this.edad = edad;
         this.votos = votos;
+        this.nacionalidad = nacionalidad;
+        this.apellido = apellido;
     }
 
     public String getNombre() {
@@ -47,5 +49,22 @@ public class Pract1 {
     public void setVotos(int votos) {
         this.votos = votos;
     }
+
+    public String getNacionalidad() {
+        return nacionalidad;
+    }
+
+    public void setNacionalidad(String nacionalidad) {
+        this.nacionalidad = nacionalidad;
+    }
+
+    public String getApellido() {
+        return apellido;
+    }
+
+    public void setApellido(String apellido) {
+        this.apellido = apellido;
+    }
+    
     
 }
