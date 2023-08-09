@@ -11,8 +11,11 @@ package practicagithub;
  */
 public class Pract1 {
     private String nombre;
+    private String apellido;
     private int edad;
     private int votos;
+    
+    
 
     public Pract1(String nombre, int edad, int votos) {
         this.nombre = nombre;
