@@ -11,10 +11,10 @@ package practicagithub;
  */
 public class Pract1 {
     private String nombre;
-    private String edad;
+    private int edad;
     private int votos;
 
-    public Pract1(String nombre, String edad, int votos) {
+    public Pract1(String nombre, int edad, int votos) {
         this.nombre = nombre;
         this.edad = edad;
         this.votos = votos;
@@ -28,11 +28,11 @@ public class Pract1 {
         this.nombre = nombre;
     }
 
-    public String getEdad() {
+    public int getEdad() {
         return edad;
     }
 
-    public void setEdad(String edad) {
+    public void setEdad(int edad) {
         this.edad = edad;
     }
 
