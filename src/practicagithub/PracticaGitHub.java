@@ -15,7 +15,7 @@ public class PracticaGitHub {
     public static void main(String[] args) {
         System.out.println("buenas");
         System.out.println("Y si ponemos la pava?");
-        Pract1 persona = new Pract1 ("Nat",31, 1);
+        Pract1 persona = new Pract1 ("Nat",31, 1, "argenta", "altamira");
         System.out.println(persona.getNombre());
         System.out.println(persona.getEdad());
     }
