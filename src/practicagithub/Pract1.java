@@ -14,6 +14,7 @@ public class Pract1 {
     private String apellido;
     private int edad;
     private int votos;
+    private String nacionalidad;
     
     
 
