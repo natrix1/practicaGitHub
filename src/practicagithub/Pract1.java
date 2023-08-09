@@ -11,4 +11,5 @@ package practicagithub;
  */
 public class Pract1 {
     private String nombre;
+    private String edad;
 }
