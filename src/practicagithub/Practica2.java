@@ -5,6 +5,6 @@ package practicagithub;
  *
  * @author Michi
  */
-public class Practica2 {
-    
+public class Practica2 { 
+   
 }
